@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY CLONE</title>
+    <link rel="stylesheet" href="Spotify.css">
+</head>
+
+<body>
+    <nav>
+        <img src="Spotify.webp" alt="Spotify">
+        <p>SPOTIFY
+            <i>.....Best Songs are On The Way.....</i>
+        </p>
+        <button id="home">Home</button>
+        <button id="help">About Us</button>
+    </nav>
+    <div class="bodymenu">
+        <div class="container">
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="1"><span>Aayuda puja</span><span>2:54</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="2"><span>All Hail The Tiger</span><span>1:26</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="3"><span>Chuttamlle</span><span>3:42</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="4"><span>Daavudi</span><span>3:49</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="5"><span>Fear Song</span><span>3:15</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/devara_poster.jpg" alt="DEVARA" id="6"><span>Red Sea</span><span>2:42</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/Animal_poster.jpg" alt="ANIMAL" id="7"><span>Ammayi</span><span>4:35</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/Animal_poster.jpg" alt="ANIMAL" id="8"><span>Arjan Vailly</span><span>3:02</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/Animal_poster.jpg" alt="ANIMAL" id="9"><span>Evarevaro</span><span>4:09</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+            <div class="songs">
+                <img src="spotify_posters/Animal_poster.jpg" alt="ANIMAL" id="10"><span>Yaalo Yaala</span><span>5:46</span>
+                <i class="far fa-1.3x fa-play-circle" style="cursor:pointer"></i>
+            </div>
+        </div>
+        <div id="gif" style="display:none;">
+            <img src="spotify_playing_gif.gif" height="400px" width="500px" alt="playback" id="playback" >
+            <div id="playbackimg" class="effect"></div>
+            <div id="playbackimg2" class="effect "></div>
+        </div>
+    </div>
+    <div class="playbox">
+        <i style="color:black;font-size: 1.5rem;font-weight: 150;" id="sname"></i>
+        <input type="range" value="0" min="0" max="100" id="progressbar">
+        <div class="icon">
+            <i class="fas fa-2x fa-step-backward" id="back"></i>
+            <i class="far fa-2x fa-play-circle" id="playbtn" style="display:inline-block;"></i>
+            <i class="far fa-2x fa-pause-circle" id="pausebtn" style="display:none;"></i>
+            <i class="fas fa-2x fa-step-forward" id="front"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com//26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="Spotify.js"></script>
+</body>
+
+</html>
